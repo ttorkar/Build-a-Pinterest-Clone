@@ -1,0 +1,30 @@
+<div class="content">
+  <div class="container">
+    <div class="profile-content">
+      <div class="row">
+        <div class="col-md-1">
+          <img src="{{user.photo}}"/>
+        </div>
+        <div class="col-md-11">
+          <span>{{user.name}}</span>
+        </div>
+      </div>
+    </div>
+    <div deckgrid class="deckgrid" source="images">
+      <div class="a-card column size-1-4">
+        <div class="card">
+          <a ng-href="{{card.image_url}}" target="_blank"><img src="" data-ng-src="{{card.image_url}}" width="100%"></a>
+          <div class="cart-text" style="padding:10px">
+            <p class="title">{{card.title}}</p>
+            <p class="description">{{card.description}}</p>
+            <div class="text-right">
+              <button class="btn btn-danger" data-ng-click="mother.removeImage(card._id)" style="align:right">
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

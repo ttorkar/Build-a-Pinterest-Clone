@@ -1,0 +1,39 @@
+{
+  "name": "pinterest",
+  "version": "0.1.0",
+  "description": "Pinterest Clone with MEAN Stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttorkar"
+  },
+  "author": "Trent Torkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttorkar"
+  },
+  "homepage": "https://github.com/ttorkar",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-load": "^1.1.15",
+    "express-session": "^1.11.3",
+    "method-override": "^2.3.5",
+    "mongodb": "^2.0.46",
+    "mongoose": "^4.2.2",
+    "mongoose-findorcreate": "^0.1.2",
+    "passport": "^0.3.0",
+    "passport-facebook": "^2.0.0",
+    "passport-google": "^0.3.0",
+    "passport-google-oauth": "^0.2.0",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-twitter": "^1.0.3"
+  }
+}

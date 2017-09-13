@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<% include ./partials/head.ejs %>
+<body>
+  <% include ./partials/header.ejs %>
+  <div class="banner">
+    <div class="container text-center">
+      <h1> Pinterest Clone </h1>
+    </div>
+  </div>
+  <div class="promo">
+    <div class="container text-center">
+      <h1> Share Images </h1>
+      <br>
+      <h3> Connect with Google </h3>
+      <br>
+      <a class="btn btn-default btn-social btn-google btn-block" href="/auth/google">
+        <i class="fa fa-google"></i>
+        Sign In With Google
+      </a>
+    </div>
+  </div>
+  <% include ./partials/footer.ejs %>
+
+      <script src="vendor/jquery/dist/jquery.min.js"></script>
+      <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+  </html>

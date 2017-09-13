@@ -1,0 +1,31 @@
+<header class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <% if (userLogged) {%>
+        <a href="/#/" class="navbar-brand">Pinterest Clone</a>
+      <%} else {%>
+        <a href="/" class="navbar-brand">Pinterest Clone</a>
+      <%}%>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <% if (userLogged) {%>
+          <li><a href="/#/add-image"><i class="fa fa-plus"></i> New Image</a></li>
+          <li><a href="/#/my-profile"><%= userName %></a></li>
+          <li>
+            <a href="/logout"><i class="fa fa-sign-out"></i> Logout</a>
+          </li>
+        <%} else {%>
+          <li><a href="/auth/google">Login with Google</a></li>
+        <%}%>
+      </ul>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,25 @@
+{
+  "name": "pinterest",
+  "description": "Pinterest Clone with MEAN Stack",
+  "main": "index.js",
+  "authors": [
+    "Trent Torkar"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "angular-resource": "~1.4.7",
+    "bootstrap": "~3.3.5",
+    "masonry": "~3.3.2",
+    "angular-deckgrid": "^0.5.0"
+  }
+}
